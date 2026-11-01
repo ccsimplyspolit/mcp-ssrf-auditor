@@ -1,19 +1,31 @@
 cff-version: 1.2.0
-message: "If you use mcp-ssrf-auditor in your security research or static analysis tooling, please cite it as below."
-authors:
-  - family-names: "Shunko"
-    given-names: "Serhii"
-    orcid: "https://orcid.org/0009-0004-7432-8419"
 title: "mcp-ssrf-auditor: Security Evaluation Harness & Static Auditor for Model Context Protocol (MCP) Servers"
-version: 1.0.0
-date-released: 2026-11-01
-url: "https://github.com/ccsimplyspolit/mcp-ssrf-auditor"
+message: "If you use mcp-ssrf-auditor in your security research or static analysis tooling, please cite it using the metadata below."
+type: software
+authors:
+  - family-names: Shunko
+    given-names: Serhii
+    orcid: "https://orcid.org/0009-0002-4183-0361"
+    email: cc.simply.spolit@gmail.com
 repository-code: "https://github.com/ccsimplyspolit/mcp-ssrf-auditor"
+url: "https://ccsimplyspolit.github.io/"
 license: MIT
+version: 1.0.0
+date-released: "2026-11-01"
 keywords:
-  - "model-context-protocol"
-  - "ssrf"
-  - "tool-poisoning"
-  - "prompt-injection"
-  - "static-analysis"
-  - "ai-agent-security"
+  - model-context-protocol
+  - ssrf
+  - tool-poisoning
+  - prompt-injection
+  - static-analysis
+  - sarif
+  - ai-agent-security
+references:
+  - type: software
+    title: "protobuf-bounds-auditor: Static Security Analyzer for Protocol Buffers (.proto) Schemas"
+    authors:
+      - family-names: Shunko
+        given-names: Serhii
+        orcid: "https://orcid.org/0009-0002-4183-0361"
+    doi: 10.5281/zenodo.23641037
+    repository-code: "https://github.com/ccsimplyspolit/protobuf-bounds-auditor"
