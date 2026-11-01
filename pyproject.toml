@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mcp-ssrf-auditor"
+version = "1.0.0"
+description = "Security evaluation harness and static auditor for Model Context Protocol (MCP) servers, schemas, and tool specifications."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+    { name = "Serhii Shunko", email = "cc.simply.spolit@gmail.com" }
+]
+keywords = ["mcp", "ssrf", "security", "ai-security", "prompt-injection", "tool-poisoning", "static-analysis"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Security",
+]
+
+[project.scripts]
+mcp-ssrf-auditor = "mcp_ssrf_auditor.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/ccsimplyspolit/mcp-ssrf-auditor"
+Issues = "https://github.com/ccsimplyspolit/mcp-ssrf-auditor/issues"
+Repository = "https://github.com/ccsimplyspolit/mcp-ssrf-auditor.git"

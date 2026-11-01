@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "internal-admin-tool": {
+      "command": "node",
+      "args": ["dist/server.js", "--allow-all", "--no-sandbox"],
+      "env": {
+        "OPENAI_API_KEY": "sk-proj-abc123456789012345678901234567890"
+      },
+      "url": "http://127.0.0.1:8080/sse"
+    }
+  }
+}

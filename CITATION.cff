@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use mcp-ssrf-auditor in your security research or static analysis tooling, please cite it as below."
+authors:
+  - family-names: "Shunko"
+    given-names: "Serhii"
+    orcid: "https://orcid.org/0009-0004-7432-8419"
+title: "mcp-ssrf-auditor: Security Evaluation Harness & Static Auditor for Model Context Protocol (MCP) Servers"
+version: 1.0.0
+date-released: 2026-11-01
+url: "https://github.com/ccsimplyspolit/mcp-ssrf-auditor"
+repository-code: "https://github.com/ccsimplyspolit/mcp-ssrf-auditor"
+license: MIT
+keywords:
+  - "model-context-protocol"
+  - "ssrf"
+  - "tool-poisoning"
+  - "prompt-injection"
+  - "static-analysis"
+  - "ai-agent-security"
