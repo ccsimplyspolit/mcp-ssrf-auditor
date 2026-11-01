@@ -34,3 +34,6 @@ mcp-ssrf-auditor = "mcp_ssrf_auditor.cli:main"
 Homepage = "https://github.com/ccsimplyspolit/mcp-ssrf-auditor"
 Issues = "https://github.com/ccsimplyspolit/mcp-ssrf-auditor/issues"
 Repository = "https://github.com/ccsimplyspolit/mcp-ssrf-auditor.git"
+
+[tool.setuptools.packages.find]
+include = ["mcp_ssrf_auditor*"]
