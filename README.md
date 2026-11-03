@@ -1,5 +1,7 @@
 # mcp-ssrf-auditor
 
+<p align="center"><img src="assets/hero-banner.svg" width="100%" alt="mcp-ssrf-auditor Banner" /></p>
+
 [![CI](https://github.com/ccsimplyspolit/mcp-ssrf-auditor/actions/workflows/ci.yml/badge.svg)](https://github.com/ccsimplyspolit/mcp-ssrf-auditor/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python: 3.10+](https://img.shields.io/badge/Python-3.10%2B-brightgreen.svg)](pyproject.toml)
